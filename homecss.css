@@ -4,11 +4,12 @@ body{
 
 #title{
 	color:white;
-	font-size:42px;
+	font-size:98px;
 	z-index:100;
 	padding:20px 0 0 0;
 	margin:auto;
 	vertical-align:center;
+	text-align: center;
 }
 
 #subtitle{
@@ -16,6 +17,7 @@ body{
 	font-size:24px;
 	z-index:100;
 	padding:0 0 20px 0;
+	text-align: center;
 }
 
 #titlebackground{
@@ -26,69 +28,94 @@ body{
 }
 
 #mainbackground{
-	background:black;
+	background:-webkit-linear-gradient(left,rgba(200,0,200,1),rgba(220,0,200,0.3),rgba(200,0,200,1));
+}
+/*menustuff*/
+#menuholder{
+	display:block;
+	height: 160px;
+	background:-webkit-linear-gradient(top,white,pink,red,purple);
 }
 
-/*menustuff*/
+#guide{
+	float:top;
+	position:relative;
+	display:inline-block;
+	height:10%;
+	width:100%;
+}
 
+.dropdowncontent{
+	display:none;
+	position:absolute;
+}
+
+.show{display:inline-block;}
 
 /*menustuff*/
 
 h1{
-	color:;
-	text-align:center;
+	color:rgb(100,0,90);
+	text-align: center;
 }
 
 h2{
-	color:;
+	color:black;
+	background:-webkit-radial-gradient(white, gray, black);
+	display:inline-block;
+	height:10%;
 }
 
 p{
-	color:;
-	padding-left:5%;
+	font-size: 18px;
+	color:black;
+	padding-left:10%;
+	padding-right:10%;
 }/*for main aritcle and narrator*/
 
+#chap1{
+	background:-webkit-linear-gradient(left,rgba(120,100,180,0.5),rgba(140,100,120,0.2),rgba(120,100,180,0.5));
+	display:block;
+}/*鈴子*/
+
+#chap2{
+	background:-webkit-linear-gradient(left,rgba(120,100,180,0.5),rgba(140,100,120,0.2),rgba(120,100,180,0.5));
+	display:block;
+}/*怡樊*/
+
+
+#chap3{
+	background:-webkit-linear-gradient(left,rgba(120,100,180,0.5),rgba(140,100,120,0.2),rgba(120,100,180,0.5));
+	display:block;
+}/*至楷*/
+
+#chap4{
+	background:-webkit-linear-gradient(left,rgba(120,100,180,0.5),rgba(140,100,120,0.2),rgba(120,100,180,0.5));
+	display:block;
+}/*魏蜀吳*/
+
+#chap5{
+	background:-webkit-linear-gradient(left,rgba(120,100,180,0.5),rgba(140,100,120,0.2),rgba(120,100,180,0.5));
+	display:block;
+}/*馬修*/
+
+#image{
+	display: inline-block;
+}
+
+/*characters*/
 #msn{
+	font-size:28px;
 	display:block;
 	height:10%;
 	margin:auto;
 	color:black;
-	background:gray;
-}
-
-.chap1{
 	background:white;
-	display:block;
+	text-align: center;
 }
 
-.chap2{
-	background:white;
-	display:block;
-}
-
-
-.chap3{
-	background:white;
-	display:block;
-}
-
-.chap4{
-	background:white;
-	display:block;
-}
-
-.chap5{
-	background:white;
-	display:block;
-}
-
-#image{
-	background:black;
-	position:relative;
-	display:inline-block;
-	width:20%;
-}
-
-#think{
-	text-decoration:
+#note{
+	font-size: 18px;
+	color:black;
+	font-style:italic;
 }

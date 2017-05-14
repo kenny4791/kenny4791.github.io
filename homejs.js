@@ -4,24 +4,25 @@ function widthset(){
 }
 
 function menuhide(){
-	var menudisplay = document.getElementById('menu').style.display;
-	if(menudisplay==="block"){
-		menudisplay = "none";
-	}
-	else if(menudisply==="none"){
-		menudispaly = "block";
-	}
-
+    document.getElementById("menu").classList.toggle("show");
 }
 
-function showchap1(){
-	var ch1 = document.getElementById('chap1').style.display;
-	var ch2 = document.getElementById('chap2').style.display;
-	var ch3 = document.getElementById('chap3').style.display;
-	var ch4 = document.getElementById('chap4').style.display;
-	var ch5 = document.getElementById('chap5').style.display;
+function unlock1(){
+	document.getElementById("image1").src="unlocked.jpg";
+}
 
-	if(){
+function unlock2(){
+	document.getElementById("image2").src="unlocked.jpg";
+}
 
-	}
+function unlock3(){
+	document.getElementById("image3").src="unlocked.jpg";
+}
+
+function unlock4(){
+	document.getElementById("image4").src="unlocked.jpg";
+}
+
+function unlock5(){
+	document.getElementById("image5").src="unlocked.jpg";
 }
