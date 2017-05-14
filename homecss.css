@@ -1,0 +1,94 @@
+body{
+	background:;
+}
+
+#title{
+	color:white;
+	font-size:42px;
+	z-index:100;
+	padding:20px 0 0 0;
+	margin:auto;
+	vertical-align:center;
+}
+
+#subtitle{
+	color:rgb(100,20,110);
+	font-size:24px;
+	z-index:100;
+	padding:0 0 20px 0;
+}
+
+#titlebackground{
+	display:block;
+	background:-webkit-linear-gradient(purple,white);
+	margin:0;
+	padding:0;
+}
+
+#mainbackground{
+	background:black;
+}
+
+/*menustuff*/
+
+
+/*menustuff*/
+
+h1{
+	color:;
+	text-align:center;
+}
+
+h2{
+	color:;
+}
+
+p{
+	color:;
+	padding-left:5%;
+}/*for main aritcle and narrator*/
+
+#msn{
+	display:block;
+	height:10%;
+	margin:auto;
+	color:black;
+	background:gray;
+}
+
+.chap1{
+	background:white;
+	display:block;
+}
+
+.chap2{
+	background:white;
+	display:block;
+}
+
+
+.chap3{
+	background:white;
+	display:block;
+}
+
+.chap4{
+	background:white;
+	display:block;
+}
+
+.chap5{
+	background:white;
+	display:block;
+}
+
+#image{
+	background:black;
+	position:relative;
+	display:inline-block;
+	width:20%;
+}
+
+#think{
+	text-decoration:
+}
