@@ -1,12 +1,8 @@
-body{
-	background:;
-}
-
 #title{
 	color:white;
 	font-size:98px;
 	z-index:100;
-	padding:20px 0 0 0;
+	padding:160px 0 0 0;
 	margin:auto;
 	vertical-align:center;
 	text-align: center;
@@ -16,7 +12,7 @@ body{
 	color:rgb(100,20,110);
 	font-size:24px;
 	z-index:100;
-	padding:0 0 20px 0;
+	padding:0 0 60px 0;
 	text-align: center;
 }
 
@@ -33,7 +29,7 @@ body{
 /*menustuff*/
 #menuholder{
 	display:block;
-	height: 160px;
+	height: 140px;
 	background:-webkit-linear-gradient(top,white,pink,red,purple);
 }
 
@@ -64,6 +60,7 @@ h2{
 	background:-webkit-radial-gradient(white, gray, black);
 	display:inline-block;
 	height:10%;
+	font-size: 42px;
 }
 
 p{
@@ -118,4 +115,9 @@ p{
 	font-size: 18px;
 	color:black;
 	font-style:italic;
+}
+#mark{
+	font-size:18px;
+	color:black;
+	font-style:bold;
 }

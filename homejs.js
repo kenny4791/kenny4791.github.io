@@ -1,6 +1,6 @@
 function widthset(){
 	document.getElementById('titlebackground').style.width = '100%';
-	document.getElementById('titlebackground').style.height = '80%';
+	document.getElementById('titlebackground').style.height = '560px';
 }
 
 function menuhide(){
