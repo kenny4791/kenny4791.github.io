@@ -104,13 +104,78 @@ p{
 
 /*characters*/
 #msn{
-	font-size:28px;
+	font-size:20px;
 	display:block;
-	height:10%;
+	width:40%;
+	height:48px;
 	margin:auto;
 	color:black;
 	background:white;
 	text-align: center;
+	padding:auto;
+	border:2px solid purple;
+	border-radius: 5px;
+}
+
+#msnblock1{
+	display:none;
+	margin:0 15% 0 15%;
+	padding:0;
+	border:2px solid purple;
+	border-radius: 10px;
+	background: white;
+}
+
+#msnblock2{
+	display:none;
+	margin:0 15% 0 15%;
+	padding:0;
+	border:2px solid purple;
+	border-radius: 10px;
+	background: white;
+}
+
+#msnblock3{
+	display:none;
+	margin:0 15% 0 15%;
+	padding:0;
+	border:2px solid purple;
+	border-radius: 10px;
+	background: white;
+}
+
+#msnblock4{
+	display:none;
+	margin:0 15% 0 15%;
+	padding:0;
+	border:2px solid purple;
+	border-radius: 10px;
+	background: white;
+}
+
+#msna{
+	font-size:18px;
+	display:block;
+	color:navy;
+	background:white;
+	text-align:left;
+	padding:0;
+	margin-left: 5px;
+}
+
+#msnq{
+	font-size:18px;
+	display:block;
+	color:crimson;
+	background:white;
+	text-align: right;
+	padding:0;
+	margin-right: 5px;
+}
+
+#msnbutton{
+	display:block;
+	margin:auto;
 }
 
 #note{

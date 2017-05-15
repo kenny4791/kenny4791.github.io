@@ -62,3 +62,16 @@ function scrollFunction() {
         document.getElementById("menuholder").style.position = "static";
     }
 }
+
+function msn1() {
+	document.getElementById("msnblock1").style.display="block";
+}
+
+function msn2() {
+	document.getElementById("msnblock2").style.display="block";
+	document.getElementById("msnblock3").style.display="block";
+}
+
+function msn4() {
+	document.getElementById("msnblock4").style.display="block";
+}
