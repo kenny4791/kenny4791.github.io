@@ -30,13 +30,13 @@
 #space{
 	display:block;
 	z-index:50;
-	height:160px;
+	height:120px;
 }
 
 /*menustuff*/
 #menuholder{
 	display:block;
-	height: 140px;
+	height: 64px;
 	min-width:100%;
 	background:-webkit-linear-gradient(top,white,pink,red,purple);
 	z-index:120;
@@ -46,7 +46,7 @@
 	float:top;
 	position:relative;
 	display:inline-block;
-	height:60px;
+	height:48px;
 	width:100%;
 }
 
@@ -68,8 +68,9 @@ h2{
 	color:black;
 	background:-webkit-radial-gradient(white, gray, black);
 	display:inline-block;
-	height:64px;
+	height:48px;
 	font-size: 42px;
+	margin:0;
 }
 
 p{
@@ -185,6 +186,24 @@ p{
 	margin:auto;
 }
 
+#msntitle{
+	display:block;
+	height:24px;
+	font-size:20px;
+	background:purple;
+	text-align: center;
+	margin-top: 0;
+	color:white;
+
+}
+
+#closemsn{
+	display:inline-block;
+	padding-right: 16px;
+	text-align:right;
+	float:right;
+}
+
 #note{
 	font-size: 18px;
 	color:black;
@@ -200,4 +219,24 @@ p{
 #vstitle{
 	font-size: 36px;
 	color:navy;
+}
+
+#image1{
+	height:48px;
+}
+
+#image2{
+	height:48px;
+}
+
+#image3{
+	height:48px;
+}
+
+#image4{
+	height:48px;
+}
+
+#image5{
+	height:48px;
 }

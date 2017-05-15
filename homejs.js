@@ -76,3 +76,20 @@ function msn2() {
 function msn4() {
 	document.getElementById("msnblock4").style.display="block";
 }
+
+function ring(){
+
+}
+
+function closemsn1(){
+	document.getElementById("msnblock1").style.display="none";
+}
+
+function closemsn2(){
+	document.getElementById("msnblock2").style.display="none";
+	document.getElementById("msnblock3").style.display="none";
+}
+
+function closemsn4(){
+	document.getElementById("msnblock4").style.display="none";
+}
