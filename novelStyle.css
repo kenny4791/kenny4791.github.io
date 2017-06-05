@@ -1,0 +1,206 @@
+@import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+body, html{
+	height: 100%;
+	width:100%;
+	background-color:black;
+}
+
+h1,h2,p{
+	font-family: 'cwTeXFangSong';
+}
+
+h1{
+	color:white;
+	font-size: 1000%;
+}
+
+h2{
+	color:white;
+	font-size:300%;
+	text-align:center;
+}
+
+p{
+	color:white;
+	text-align:left;
+	font-size:200%;
+	line-height:240%;
+	padding:6%;
+}
+
+.title{
+	display:block;
+	position:absolute;
+	top:2%;
+	right:8%;
+}
+
+.word{
+	color:white;
+	background-color: black;
+	height:200%;
+	position:relative;
+}
+
+.note{
+	background:black;
+	background-image: url('');
+	height: 100%;
+}
+
+.option1{
+	display:block;
+	border:2px solid rgba(204, 255, 255, 0.5);
+	height:60%;
+	width:30%;
+	position:absolute;
+	left:0;
+	top:32%;
+	z-index:100;
+	background:none;
+	cursor:pointer;
+}
+
+.option2{
+	display:block;
+	border:2px solid rgba(102, 255, 102, 0.5);
+	height:30%;
+	width:50%;
+	position:absolute;
+	top:0;
+	left:25%;
+	z-index:100;
+	background:none;
+	cursor:pointer;
+}
+
+.option3{
+	display:block;
+	border:2px solid rgba(204, 102, 255, 0.5);
+	height:60%;
+	width:30%;
+	position:absolute;
+	right:0;
+	top:32%;
+	z-index:100;
+	background:none;
+	cursor:pointer;
+}
+
+.parallax{
+	position:relative;
+	background-image: url('puzzle.jpg');
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#a{
+	display:block;
+}
+
+
+
+#msn{
+	display:block;
+	height:99%;
+	width:46%;
+	position:fixed;
+	top:0%;
+	left:27%;
+	background-image:url('msn.jpg');
+	background-size:100% 100%;
+	z-index:100;
+}
+.msnname{
+	display:block;
+	position:absolute;
+	top:14%;
+	left:8%;
+	background:rgb(230, 230, 255);
+	height:6.2%;
+	width:65%;
+	line-height: 200%;
+	z-index:110;
+}
+
+.msntext{
+	display:block;
+	position:absolute;
+	top:20.5%;
+	left:3.5%;
+	background:white;
+	height:53%;
+	width:72%;
+	overflow-y:scroll;
+	z-index:110;
+}
+
+.msnpic1{
+	display:block;
+	position:absolute;
+	top:13.7%;
+	left:77%;
+	background:green;
+	border-radius: 12%;
+	height:16%;
+	width:18%;
+	z-index:110;
+}
+
+.msnpic2{
+	display:block;
+	position:absolute;
+	top:75%;
+	left:77%;
+	background:red;
+	border-radius: 12%;
+	height:16%;
+	width:18%;
+	z-index:110;
+}
+
+.msnclose{
+	color:white;
+	text-align: center;
+	display:block;
+	position:absolute;
+	top:0.2%;
+	right:0.5%;
+	background:red;
+	height:2.8%;
+	width:6%;
+	z-index:110;
+	cursor:pointer;
+}
+
+.msntime{
+	display:block;
+	position:absolute;
+	top:90%;
+	left:4.8%;
+	background:rgb(230, 230, 255);
+	height:3%;
+	width:45%;
+	z-index:110;
+}
+
+.talk{
+	font-size:100%;
+	color:rgb(153, 153, 153);
+	padding:0 2% 0 2%;
+}
+
+.msn1{
+	font-size:100%;
+	color:rgb(0, 51, 0);
+	padding:0 2% 0 2%;
+}
+
+.msn2{
+	font-size:100%;
+	color:rgb(51, 0, 102);
+	padding:0 2% 0 2%;
+}
