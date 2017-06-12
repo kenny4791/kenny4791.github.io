@@ -166,6 +166,7 @@ p{
 	height:16%;
 	width:18%;
 	z-index:110;
+	background-image: url('b.jpg');
 }
 
 .msnpic2{
@@ -178,6 +179,7 @@ p{
 	height:16%;
 	width:18%;
 	z-index:110;
+	background-image: url('a.jpg');
 }
 
 .msnclose{
