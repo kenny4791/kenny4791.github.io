@@ -39,6 +39,8 @@ p{
 	color:white;
 	background-color: black;
 	position:relative;
+	height:160%;
+	background-size: cover;
 }
 
 .note{
@@ -167,6 +169,7 @@ p{
 	width:18%;
 	z-index:110;
 	background-image: url('b.jpg');
+	background-size: cover;
 }
 
 .msnpic2{
@@ -180,6 +183,7 @@ p{
 	width:18%;
 	z-index:110;
 	background-image: url('a.jpg');
+	background-size: cover;
 }
 
 .msnclose{

@@ -23,3 +23,6 @@ function msnClosec(){
 function msnOpenc(){
 	document.getElementById("msnc").style.display="block";
 }
+
+var vid = document.getElementById("myVideo");
+vid.loop = true;
