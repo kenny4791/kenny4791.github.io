@@ -38,7 +38,6 @@ p{
 .word{
 	color:white;
 	background-color: black;
-	height:200%;
 	position:relative;
 }
 
@@ -89,7 +88,7 @@ p{
 
 .parallax{
 	position:relative;
-	background-image: url('puzzle.jpg');
+	background-image: url('IMG_3512.jpg');
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -97,14 +96,8 @@ p{
     background-size: cover;
 }
 
-#a{
-	display:block;
-}
-
-
-
-#msn{
-	display:block;
+#msna{
+	display:none;
 	height:99%;
 	width:46%;
 	position:fixed;
@@ -114,6 +107,31 @@ p{
 	background-size:100% 100%;
 	z-index:100;
 }
+
+#msnb{
+	display:none;
+	height:99%;
+	width:46%;
+	position:fixed;
+	top:0%;
+	left:27%;
+	background-image:url('msn.jpg');
+	background-size:100% 100%;
+	z-index:100;
+}
+
+#msnc{
+	display:none;
+	height:99%;
+	width:46%;
+	position:fixed;
+	top:0%;
+	left:27%;
+	background-image:url('msn.jpg');
+	background-size:100% 100%;
+	z-index:100;
+}
+
 .msnname{
 	display:block;
 	position:absolute;
@@ -203,4 +221,12 @@ p{
 	font-size:100%;
 	color:rgb(51, 0, 102);
 	padding:0 2% 0 2%;
+}
+
+.check{
+	display: block;
+	margin:auto;
+	padding:2%;
+	text-align: center;
+	font-size: 120%;
 }
